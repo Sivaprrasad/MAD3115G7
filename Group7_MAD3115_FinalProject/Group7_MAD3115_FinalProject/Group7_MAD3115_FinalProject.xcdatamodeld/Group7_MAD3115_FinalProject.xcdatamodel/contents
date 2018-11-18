@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18B75" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Ticket" representedClassName="Ticket" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carcolor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="carcompany" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="datetime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lotnumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parkinghours" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="paymentmethod" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="spotnumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="usercpn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="useremail" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="contact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cpn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Ticket" positionX="-63" positionY="18" width="128" height="195"/>
+    </elements>
+</model>
